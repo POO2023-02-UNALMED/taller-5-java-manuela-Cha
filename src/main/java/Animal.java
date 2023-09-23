@@ -31,7 +31,7 @@ public class Animal {
         int rep = Reptil.cantidadReptiles();
         int pex = Pez.cantidadPeces();
         int An = Anfibio.cantidadAnfibios();
-        return "Mamiferos: " + mam + "VnAves: " + av + "\nReptiles: " + rep + 
+        return "Mamiferos: " + mam + "\nAves: " + av + "\nReptiles: " + rep + 
             "\nPeces: " + pex + "\nAnfibios: " + An;
     }
 
@@ -67,8 +67,8 @@ public class Animal {
     public String toString (){
         if (zona[0] != null && zona[0].getZoo() !=  null){ 
             return "Mi nombre es " + this.nombre + ", tengo una edad de " 
-        + this.edad + ", habito en" + this.habitat + ", y mi genero es" + this.genero +
-        ", la zona en la que me ubico es " + this.zona[0] +", en el zoo " + zona[0].getZoo();
+        + this.edad + ", habito en" + this.habitat + " y mi genero es " + this.genero +
+        ", la zona en la que me ubico es " + this.zona[0] +", en el " + zona[0].getZoo();
         }
         return "Mi nombre es " + this.nombre + ", tengo una edad de " 
         + this.edad + ", habito en" + this.habitat + ", y mi genero es" + this.genero;
