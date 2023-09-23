@@ -16,14 +16,16 @@ public class Zona {
     }
 
 
-    public void agregarAnimales (Animal animalNuevo){
+    public static void agregarAnimales (Animal animalNuevo){
         animales.add(animalNuevo);
     }
 
     public int cantidadAnimales (){
         int numAnimalesEnZona = 0;
         for (Animal animal : animales){
+            if (animal != null) {
             numAnimalesEnZona += 1;
+            }
         }
         return numAnimalesEnZona;
     }
