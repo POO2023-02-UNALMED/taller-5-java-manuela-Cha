@@ -33,7 +33,7 @@ public class Zona {
     public void setNombre (String nombre){
         this.nombre = nombre;
     }
-    public  getNombre (){
+    public String getNombre (){
         return nombre;
     }
 
