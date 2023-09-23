@@ -37,13 +37,13 @@ public class Reptil extends Animal {
         return "reptar";
     }  
 
-    public Reptil crearIguana (String nombre, int edad, String genero){
+    public static Reptil crearIguana (String nombre, int edad, String genero){
         iguanas += 1;
         Reptil iguana = new Reptil (nombre, edad, "humedal", genero, "verde", 3);
         return iguana; 
     }
 
-    public Reptil crearSerpiente (String nombre, int edad, String genero){
+    public static Reptil crearSerpiente (String nombre, int edad, String genero){
         serpientes += 1;
         Reptil serpiente = new Reptil (nombre, edad, "jungla", genero, "blanco", 1);
         return serpiente; 
