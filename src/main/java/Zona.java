@@ -38,10 +38,10 @@ public class Zona {
     }
 
     public Zoologico getZoo (){
-        return this.zoo[0];
+        return zoo[0];
     }
 
     public Zoologico getUbicacionZoo (){
-        return this.zoo[1];
+        return zoo[1];
     }
 }
