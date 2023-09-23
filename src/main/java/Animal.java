@@ -25,7 +25,7 @@ public class Animal {
         return "desplazarse";
     } 
 
-    public void totalPorTipo (){
+    public String totalPorTipo (){
         System.out.println("Mamiferos: "+ Mamifero.cantidadMamiferos());
         System.out.println("Aves : "+ Ave.cantidadAves());
         System.out.println("Reptiles : "+ Reptil.cantidadReptiles());
