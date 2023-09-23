@@ -33,31 +33,31 @@ public class Animal {
         System.out.println("Mamiferos: "+ Anfibio.cantidadAnfibios());
     }
 
-    public void setNombreAnimal(String nombre){
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
-    public String getNombreAnimal(){
+    public String getNombre(){
         return this.nombre;
     }
 
-    public void setEdadAnimal(int edad){
+    public void setEdad(int edad){
         this.edad = edad;
     }
-    public int getEdadAnimal (){
+    public int getEdad (){
         return this.edad;
     }
 
-    public void setHabitatAnimal(String habitat){
+    public void setHabitat(String habitat){
         this.habitat = habitat;
     }
-    public String getHabitatAnimal (){
+    public String getHabitat (){
         return this.habitat;
     }
 
-    public void setGeneroAnimal (String genero){
+    public void setGenero (String genero){
         this.genero = genero;
     }
-    public String getGeneroAnimal (){
+    public String getGenero (){
         return this.genero;
     }
 
