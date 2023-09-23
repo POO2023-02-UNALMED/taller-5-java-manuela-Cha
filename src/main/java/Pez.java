@@ -37,7 +37,7 @@ public class Pez extends Animal {
         return "nadar";
     }
 
-    public static Pez cerarSalmon (String nombre, int edad, String genero ){
+    public static Pez crearSalmon (String nombre, int edad, String genero ){
         salmones += 1;
         Pez salmon = new Pez (nombre, edad, "oceano", genero, "rojo", 6);
         return salmon;
