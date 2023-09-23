@@ -65,12 +65,12 @@ public class Animal {
 
 
     public String toString (){
-        if (zona[0] != null && zona[0].getZoo() !=  null){ 
+        if (zona[0] != null && zona[1].getZoo() !=  null){ 
             return "Mi nombre es " + this.nombre + ", tengo una edad de " 
         + this.edad + ", habito en" + this.habitat + " y mi genero es " + this.genero +
-        ", la zona en la que me ubico es " + this.zona[0] +", en el " + this.zona[0].getZoo();
+        ", la zona en la que me ubico es " + this.zona[0] +", en el " + this.zona[1].getZoo();
         }
         return "Mi nombre es " + this.nombre + ", tengo una edad de " 
-        + this.edad + ", habito en " + this.habitat + " y mi genero es" + this.genero;
+        + this.edad + ", habito en " + this.habitat + " y mi genero es " + this.genero;
     }
 }
