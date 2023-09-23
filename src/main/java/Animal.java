@@ -25,12 +25,13 @@ public class Animal {
         return "desplazarse";
     } 
 
-    public String totalPorTipo (){
-        System.out.println("Mamiferos: "+ Mamifero.cantidadMamiferos());
-        System.out.println("Aves : "+ Ave.cantidadAves());
-        System.out.println("Reptiles : "+ Reptil.cantidadReptiles());
-        System.out.println("Peces: "+ Pez.cantidadPeces());
-        System.out.println("Mamiferos: "+ Anfibio.cantidadAnfibios());
+    public static String totalPorTipo (){
+        int mam = Mamifero.cantidadMamiferos(); 
+        int av = Ave.cantidadAves();
+        int rep = Reptil.cantidadReptiles();
+        int pex = Pez.cantidadPeces();
+        int An =Anfibio.cantidadAnfibios();
+        return "Mamiferos: " + mam + "/nAves: " + av + "/nReptiles: " + rep + "/nPeces: " + pex + "/nAnfibios: " + An;
     }
 
     public void setNombre(String nombre){
