@@ -30,14 +30,14 @@ public class Zona {
         return numAnimalesEnZona;
     }
 
-    public void setNombreZona (String nombre){
+    public void setZona (String nombre){
         this.nombre = nombre;
     }
-    public String getNombreZona (){
+    public String getZona (){
         return this.nombre;
     }
 
-    public Zoologico getNombreZoo (){
+    public Zoologico getZoo (){
         return this.zoo[0];
     }
 
